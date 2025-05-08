@@ -1,1 +1,13 @@
-Teste
+docker build -t myimagi . # Criação da imagem
+
+docker network create minha-rede #Por padrão já criar uma rede bridge
+
+
+docker run -d --name container1 --network minha-rede myimagi # Criação do container 1
+ docker exec -it container1 bash # Acesso ao container
+
+docker run -d --name container2 --network minha-rede myimagi # Criação do container 2
+ docker exec -it container2 bash # Acesso ao container
+
+docker run -d --name container3 --network minha-rede myimagi # Criação do container 3
+ docker exec -it container3 bash # Acesso ao container
