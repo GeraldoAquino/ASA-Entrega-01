@@ -1,5 +1,5 @@
 
-# ASA - Entrega 01: Comunicação entre Containers com Docker
+# Comunicação entre Containers com Docker
 
 ## 📘 Descrição da Atividade
 
